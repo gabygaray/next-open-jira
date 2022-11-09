@@ -14,6 +14,7 @@ export const Navbar = () => {
         <IconButton size="large" edge="start" onClick={openSideMenu}>
           <MenuOutlinedIcon />
         </IconButton>
+
         <NextLink href="/" passHref>
           <Link underline="none" color="white">
             <Typography variant="h6">OpenJira</Typography>
